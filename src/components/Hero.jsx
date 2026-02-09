@@ -54,7 +54,7 @@ const Hero = () => {
               MCA student with expertise in React, Spring Boot, and modern web technologies. 
               Passionate about building scalable applications and solving real-world problems.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap gap-4">
               <a 
                 href="#contact"
                 className="bg-gradient-to-r from-purple-600 via-purple-700 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
@@ -66,6 +66,14 @@ const Hero = () => {
                 className="border-2 border-purple-600 text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 hover:text-white hover:border-transparent transition-all duration-300"
               >
                 View Projects
+              </a>
+              <a 
+                href="/assets/rupayan_cv.pdf"
+                download
+                className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white hover:border-transparent transition-all duration-300 flex items-center gap-2"
+              >
+                <i className="fas fa-download"></i>
+                Download Resume
               </a>
             </div>
             <div className="flex space-x-6 mt-8">
