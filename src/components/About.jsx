@@ -37,7 +37,7 @@ const About = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 rounded-2xl blur opacity-25"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-gray-700">
                 <img 
-                  src="/assets/img1.jpeg" 
+                  src="assets/img1.jpeg"
                   alt="Rupayan Sen"
                   className="w-full h-auto object-cover"
                 />
