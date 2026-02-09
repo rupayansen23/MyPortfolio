@@ -37,8 +37,8 @@ const Hero = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-100 via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-indigo-900/20 pt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section id="home" className="min-h-screen flex items-start justify-center bg-gradient-to-br from-purple-100 via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-indigo-900/20 pt-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in-up md:pl-8">
             <h1 className="text-5xl md:text-6xl font-bold mb-4 dark:text-white">
@@ -68,7 +68,7 @@ const Hero = () => {
                 View Projects
               </a>
               <a 
-                href="/assets/rupayan_cv.pdf"
+                href="/rupayan_cv.pdf"
                 download
                 className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white hover:border-transparent transition-all duration-300 flex items-center gap-2"
               >
