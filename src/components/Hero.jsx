@@ -37,8 +37,35 @@ const Hero = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   return (
-    <section id="home" className="min-h-screen flex items-start justify-center bg-gradient-to-br from-purple-100 via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-indigo-900/20 pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <section id="home" className="min-h-screen flex items-start justify-center bg-gradient-to-br from-purple-100 via-blue-50 to-indigo-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-indigo-900/20 pt-20 relative overflow-hidden">
+      {/* Coding Background Elements */}
+      <div className="absolute inset-0 opacity-20 dark:opacity-15 pointer-events-none">
+        <div className="absolute top-20 left-10 text-purple-600 dark:text-purple-400 font-mono text-sm animate-float">
+          {'<div>'}
+        </div>
+        <div className="absolute top-32 right-20 text-blue-600 dark:text-blue-400 font-mono text-xs animate-float-delay-1">
+          {'const code = () => {}'}
+        </div>
+        <div className="absolute top-48 left-1/4 text-indigo-600 dark:text-indigo-400 font-mono text-sm animate-float-delay-2">
+          {'function()'}
+        </div>
+        <div className="absolute bottom-40 right-1/3 text-purple-600 dark:text-purple-400 font-mono text-xs animate-float">
+          {'import React'}
+        </div>
+        <div className="absolute bottom-60 left-1/3 text-blue-600 dark:text-blue-400 font-mono text-sm animate-float-delay-1">
+          {'</div>'}
+        </div>
+        <div className="absolute top-1/3 right-10 text-indigo-600 dark:text-indigo-400 font-mono text-xs animate-float-delay-2">
+          {'{...props}'}
+        </div>
+        <div className="absolute bottom-1/4 left-20 text-purple-600 dark:text-purple-400 font-mono text-sm animate-float">
+          {'return <>'}
+        </div>
+        <div className="absolute top-1/2 left-1/2 text-blue-600 dark:text-blue-400 font-mono text-xs animate-float-delay-1">
+          {'className=""'}
+        </div>
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-in-up md:pl-8">
             <h1 className="text-5xl md:text-6xl font-bold mb-4 dark:text-white">
