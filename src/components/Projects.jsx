@@ -28,7 +28,7 @@ const Projects = () => {
       color: "from-orange-500 to-red-500",
       links: {
         github: "https://github.com/rupayansen23/Food-Order-App-",
-        live: null
+        live: "https://food-order-app-brown-nine.vercel.app/"
       }
     },
     {
