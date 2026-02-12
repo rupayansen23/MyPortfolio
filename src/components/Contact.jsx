@@ -73,20 +73,6 @@ const Contact = () => {
           >
             <i className="fab fa-threads text-3xl text-gray-700 dark:text-gray-200"></i>
           </a>
-          <a 
-            href="https://discord.com/channels/1283346548167802912/1284036350932287539" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card-hover bg-gradient-to-br from-indigo-100 to-white dark:from-indigo-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-indigo-200 dark:border-indigo-700"
-          >
-            <i className="fab fa-discord text-3xl text-indigo-600 dark:text-indigo-400"></i>
-          </a>
-          <a 
-            href="mailto:rupayansen23@gmail.com"
-            className="card-hover bg-gradient-to-br from-purple-100 to-white dark:from-purple-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-purple-200 dark:border-purple-700"
-          >
-            <i className="fas fa-envelope text-3xl text-purple-600 dark:text-purple-400"></i>
-          </a>
         </div>
       </div>
     </section>

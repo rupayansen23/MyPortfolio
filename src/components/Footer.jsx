@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="bg-purple-600 p-3 rounded-full">
                   <i className="fas fa-home text-xl"></i>
                 </div>
-                <h4 className="text-xl font-semibold mt-2">Present Address</h4>
+                <h4 className="text-xl font-semibold mt-2">Parmanent Address</h4>
               </div>
               <div className="space-y-2 text-gray-200">
                 <p>
