@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { navigateToSection } from '../utils/navigation.js';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,13 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
+  const handleNavClick = (event, link) => {
+    const sectionId = link.toLowerCase();
+    event.preventDefault();
+    navigateToSection(sectionId);
+    setIsOpen(false);
+  };
+
   return (
     <>
       {/* Mobile Menu Backdrop */}
@@ -45,7 +53,8 @@ const Navbar = () => {
             {navLinks.map(link => (
               <a 
                 key={link}
-                href={`#${link.toLowerCase()}`}
+                href={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
+                onClick={(event) => handleNavClick(event, link)}
                 className="text-gray-700 dark:text-gray-300 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 transition-all duration-300 font-medium relative group"
               >
                 {link}
@@ -71,9 +80,9 @@ const Navbar = () => {
               {navLinks.map((link, index) => (
                 <a 
                   key={link}
-                  href={`#${link.toLowerCase()}`}
+                  href={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
                   className="group block py-4 px-6 text-lg font-medium text-gray-800 dark:text-gray-200 hover:text-white transition-all duration-300 border-b border-gray-100 dark:border-gray-700 last:border-0 hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(event) => handleNavClick(event, link)}
                 >
                   <i className={`fas ${
                     link === 'Home' ? 'fa-home' :

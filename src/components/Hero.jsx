@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { navigateToSection } from '../utils/navigation.js';
 
 const Hero = () => {
   const [text, setText] = useState('');
@@ -83,19 +84,27 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
-                href="#contact"
+                href="/contact"
+                onClick={(event) => {
+                  event.preventDefault();
+                  navigateToSection('contact');
+                }}
                 className="bg-gradient-to-r from-purple-600 via-purple-700 to-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 Get In Touch
               </a>
               <a 
-                href="#projects"
+                href="/projects"
+                onClick={(event) => {
+                  event.preventDefault();
+                  navigateToSection('projects');
+                }}
                 className="border-2 border-purple-600 text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gradient-to-r hover:from-purple-600 hover:to-blue-600 hover:text-white hover:border-transparent transition-all duration-300"
               >
                 View Projects
               </a>
               <a 
-                href="/rupayan_cv.pdf"
+                href="/rupayan_cv_pic.pdf"
                 download
                 className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white hover:border-transparent transition-all duration-300 flex items-center gap-2"
               >

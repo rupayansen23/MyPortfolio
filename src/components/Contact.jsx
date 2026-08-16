@@ -2,12 +2,12 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 from-purple-100 via-indigo-100 to-blue-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-indigo-900/20">
+    <section id="contact" className="py-20 bg-gradient-to-br from-purple-100 via-indigo-100 to-blue-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-indigo-900/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-4 dark:text-white">
           Get In <span className="gradient-text">Touch</span>
         </h2>
-        <div className="w-24 h-1  from-purple-600 to-blue-600 dark:from-purple-400 dark:to-blue-400 mx-auto mb-12 rounded-full"></div>
+        <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 dark:from-purple-400 dark:to-blue-400 mx-auto mb-12 rounded-full"></div>
         <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <div className="card-hover bg-white dark:bg-gray-800 p-8 rounded-xl shadow-xl border-2 border-purple-200 dark:border-purple-800 text-center">
             <i className="fas fa-envelope text-5xl text-purple-600 dark:text-purple-400 mb-4"></i>
@@ -29,7 +29,7 @@ const Contact = () => {
             href="https://github.com/rupayansen23" 
             target="_blank"
             rel="noopener noreferrer"
-            className="card-hover  from-gray-100 to-white dark:from-gray-700 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 dark:border-gray-600"
+            className="card-hover bg-gradient-to-r from-gray-100 to-white dark:from-gray-700 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 dark:border-gray-600"
           >
             <i className="fab fa-github text-3xl text-gray-700 dark:text-gray-200"></i>
           </a>
@@ -37,7 +37,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/rupayan-sen-28a21b279/" 
             target="_blank"
             rel="noopener noreferrer"
-            className="card-hover  from-blue-100 to-white dark:from-blue-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-blue-200 dark:border-blue-700"
+            className="card-hover bg-gradient-to-r from-blue-100 to-white dark:from-blue-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-blue-200 dark:border-blue-700"
           >
             <i className="fab fa-linkedin text-3xl text-blue-600 dark:text-blue-400"></i>
           </a>
@@ -45,7 +45,7 @@ const Contact = () => {
             href="https://x.com/rupayan_sen_23" 
             target="_blank"
             rel="noopener noreferrer"
-            className="card-hover  from-sky-100 to-white dark:from-sky-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-sky-200 dark:border-sky-700"
+            className="card-hover bg-gradient-to-r from-sky-100 to-white dark:from-sky-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-sky-200 dark:border-sky-700"
           >
             <i className="fab fa-x-twitter text-3xl text-sky-600 dark:text-sky-400"></i>
           </a>
@@ -53,7 +53,7 @@ const Contact = () => {
             href="https://www.facebook.com/people/Rupayan-Sen/pfbid02hcq5CtHRfrLgXMEVL6Y5M8HgrNASUWURK8jM7zRk27nLNqVrAozGyTXhhQ81kd4el/" 
             target="_blank"
             rel="noopener noreferrer"
-            className="card-hover  from-blue-100 to-white dark:from-blue-800/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-blue-300 dark:border-blue-600"
+            className="card-hover bg-gradient-to-r from-blue-100 to-white dark:from-blue-800/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-blue-300 dark:border-blue-600"
           >
             <i className="fab fa-facebook text-3xl text-blue-700 dark:text-blue-400"></i>
           </a>
@@ -61,7 +61,7 @@ const Contact = () => {
             href="https://instagram.com/rupayan_sen_23" 
             target="_blank"
             rel="noopener noreferrer"
-            className="card-hover  from-pink-100 to-white dark:from-pink-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-pink-200 dark:border-pink-700"
+            className="card-hover bg-gradient-to-r from-pink-100 to-white dark:from-pink-900/40 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-pink-200 dark:border-pink-700"
           >
             <i className="fab fa-instagram text-3xl text-pink-600 dark:text-pink-400"></i>
           </a>
@@ -69,7 +69,7 @@ const Contact = () => {
             href="https://threads.net/@rupayan_sen_23" 
             target="_blank"
             rel="noopener noreferrer"
-            className="card-hover  from-gray-100 to-white dark:from-gray-700 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-gray-300 dark:border-gray-600"
+            className="card-hover bg-gradient-to-r from-gray-100 to-white dark:from-gray-700 dark:to-gray-800 w-16 h-16 flex items-center justify-center rounded-full shadow-lg hover:shadow-2xl transition-all border-2 border-gray-300 dark:border-gray-600"
           >
             <i className="fab fa-threads text-3xl text-gray-700 dark:text-gray-200"></i>
           </a>
