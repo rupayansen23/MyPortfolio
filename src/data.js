@@ -1,5 +1,5 @@
 export const profile = {
-  name: "<Rupayan_Sen/>",
+  name: "RUPAYAN SEN",
   image: "/rupayan2.png",
   role: "Freelance Web Developer",
   location: "Kolkata, West Bengal, India",
