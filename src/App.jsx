@@ -192,6 +192,7 @@ function Header() {
             {label}
           </a>
         ))}
+        <a className="mobile-talk mono" href="#contact" onClick={() => setOpen(false)}>Let's talk <span aria-hidden="true">↗</span></a>
       </nav>
       <div className="header-actions">
         <a className="header-talk mono" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
